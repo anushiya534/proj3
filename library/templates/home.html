@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+h2{
+  text-align: center;
+  font-size: 30px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1 {background-color: #4CAF50;} /* Green */
+.button2 {background-color: #008CBA;} /* Blue */
+</style>
+</head>
+<body>
+
+<h2>Art Gallery</h2><br>
+
+<div class="row">
+  <div class="column">
+    <img src="https://www.w3schools.com/howto/img_snow.jpg" alt="Snow" style="width:100%">
+    <button class="button button1"><a href="buy">Buy Now</a></button>
+    <button class="button button2">10000/-</button>
+
+  </div>
+  <div class="column">
+    <img src="https://www.w3schools.com/howto/img_forest.jpg" alt="Forest" style="width:100%">
+    <button class="button button1"><a href="buy">Buy Now</a></button>
+    <button class="button button2">10000/-</button>
+  </div>
+  <div class="column">
+    <img src="https://www.w3schools.com/w3images/nature.jpg" alt="Mountains" style="width:100%">
+    <button class="button button1"><a href="buy1">Buy Now</a></button>
+    <button class="button button2">15000/-</button>
+  </div>
+  <div class="column">
+    <img src="https://www.bocadolobo.com/blog/wp-content/uploads/2020/10/Some-of-The-Most-Famous-Artists-Of-All-Time-3.jpg" alt="Mountains" style="width:100%">
+    <button class="button button1"><a href="buy">Buy Now</a></button>
+    <button class="button button2">10000/-</button><br>
+  </div>
+  <div class="column">
+    <img src="https://indianartideas.in/images/blog/Phad%20painting.jpg" alt="Mountains" style="width:100%"><br>
+    <button class="button button1"><a href="buy1">Buy Now</a></button>
+    <button class="button button2">15000/-</button>
+  </div>
+  <div class="column">
+    <img src="https://theasifkamal.com/blog/wp-content/uploads/2018/01/image2-8.jpg" alt="Mountains" style="width:100%">
+    <button class="button button1"><a href="buy2">Buy Now</a></button>
+    <button class="button button2">5000/-</button>
+  </div>
+</div>
+
+</body>
+</html>
